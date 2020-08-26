@@ -1,0 +1,22 @@
+{
+  "name": "react-native-animations",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-**",
+      "**/react-native-**/**",
+      "**/react-navigation",
+      "**/react-navigation/**",
+      "**/@react-navigation",
+      "**/@react-navigation/**",
+      "**/@react-native-community",
+      "**/@react-native-community/**",
+      "**/lodash**"
+    ]
+  }
+}
